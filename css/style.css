@@ -1,0 +1,148 @@
+header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: rgba(240, 248, 255, 0.13);
+    border-radius: 15px;
+    border: solid 2px rgba(255, 255, 255, 0.288);
+    margin: 7px;
+    transition: all .5s ease;
+
+}
+
+header:hover{
+    border: solid rgb(255, 255, 255) 2px ;
+}
+
+
+header div{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+header a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-right: 20px;
+    transition: all .5s ease-in-out;
+} 
+
+header a:hover{
+    transform: translateY(-5px);
+     
+}
+
+main{
+
+    padding: 100px 16px 200px 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    
+}
+
+.cancelar {
+    padding-left: 23rem;
+}
+
+
+main aside p {
+    display: flex;
+    flex-direction: column;
+    text-align:end;
+    letter-spacing: 5px ;
+}
+
+.centro{
+    line-height: 90px;   
+}
+
+.texto{
+    font-size: 30px;
+    font-weight: 200;
+    
+
+}
+
+h1{
+    font-weight: 100;
+}
+
+.texto p{
+    font-size: 80px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    margin: 0 130px 400px 130px;
+    padding: 20px 20px 18rem 20px;
+    margin-top: 80px;
+    gap: 30px;
+    border: solid rgba(255, 255, 255, 0.521) 1px;
+    border-radius: 15px;
+    background-color: rgba(240, 248, 255, 0.089);
+
+}
+
+section h2{
+    font-size: 60px;
+    font-weight: 100;
+}
+
+section p{
+    padding-top: 50px;
+    font-size: 25px;
+    line-height:2;
+
+}
+
+footer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(240, 248, 255, 0.062);
+    border: solid rgba(255, 255, 255, 0.425) 1px;
+
+}
+
+footer div{
+    line-height: 45px;
+    padding: 15px;
+}
+
+.conta{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 150px;
+    right: 20px;
+    gap: 20px;
+    
+}
+
+input[type="text"], input[type="password"], input[type="button"], input[type="email"]{
+    background-color:rgba(0, 0, 0, 0.404);
+    padding: 20px 30px;
+    box-shadow: 2px 2px 6px rgb(0, 0, 0) ;
+    border: solid rgb(0, 0, 0) 3px;
+    border-radius: 10px;
+    color: antiquewhite;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Strait", sans-serif
+
+}
+
+input[type="text"]:hover , input[type="password"]:hover, input[type="button"]:hover, input[type="email"]:hover{
+
+    
+    background-color: rgba(255, 255, 255, 0.082);
+    cursor: pointer;
+
+}
